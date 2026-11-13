@@ -33,13 +33,13 @@ AGENTS.md / CLAUDE.md    工作流约定（可被你的项目覆盖）
 
 ```bash
 # 下载后
-bash carroros-delivery-1.0.0.sh /path/to/your-project
+bash carroros-delivery-1.0.1.sh /path/to/your-project
 ```
 
 装到已有项目里是设计意图，不是副作用。若目标目录已有 `.claude/`，需要 `--force` 才覆盖。
 
 ```bash
-bash carroros-delivery-1.0.0.sh /path/to/your-project --force
+bash carroros-delivery-1.0.1.sh /path/to/your-project --force
 ```
 
 ## 装完怎么验
@@ -71,7 +71,7 @@ echo '{"tool_name":"Bash","tool_input":{"command":"cp /tmp/x .claude/gates/rules
 
 | 版本 | 内容 |
 |---|---|
-| 1.0.0 | 首个发布包：gates + hooks + 任务/验收记录，173 个文件 |
+| 1.0.1 | 首个发布包：gates + hooks + 任务/验收记录，173 个文件 |
 
 ## 许可
 
